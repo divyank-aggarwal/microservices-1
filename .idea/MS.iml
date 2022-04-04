@@ -5,6 +5,9 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/Rate_puller/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/Rate_puller/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/Rate_puller/dist/src" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

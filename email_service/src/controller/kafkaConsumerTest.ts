@@ -10,7 +10,8 @@ const kafka = new Kafka({
 
 const topicName = 'orderCreated';
 const sendGridAPIKey =
-  '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';
+  process.env.sendgridKey;
+// @ts-ignore
 sgMail.setApiKey(sendGridAPIKey);
 export const processConsumer = async () => {
   const ordersConsumer = kafka.consumer({ groupId: 'orders' });

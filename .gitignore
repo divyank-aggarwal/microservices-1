@@ -42,6 +42,7 @@ node_modules/
 jspm_packages/
 **/node_modules/
 **/dist/
+**/.env
 
 # TypeScript v1 declaration files
 typings/
